@@ -4,9 +4,11 @@ import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PageNotFound from "./pageNotFound.jsx";
+import About from "./about.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
+  { path: "/About", element: <About /> },
   { path: "*", element: <PageNotFound /> },
 ]);
 
