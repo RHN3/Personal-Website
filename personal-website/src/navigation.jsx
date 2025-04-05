@@ -15,7 +15,7 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <Link to={"*"}>
+          <Link to={"/Contact"}>
             <button>Contact</button>
           </Link>
         </li>
